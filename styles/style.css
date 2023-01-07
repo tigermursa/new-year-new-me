@@ -4,6 +4,8 @@
   font-family: "Rubik", sans-serif;
 }
 
+
+
 /* banner styles  */
 
 .banner {
@@ -44,4 +46,43 @@
   border: none;
 }
 
-/* banner styles end  */
+
+
+/* failure section styles */
+
+.failure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.primary-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-top:24px ;
+  margin-bottom: 20px;
+}
+
+.failure-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.mark-symbol{
+    color: rgb(1, 221, 1);
+    font-weight: bolder;
+}
+
+
+/*  */
