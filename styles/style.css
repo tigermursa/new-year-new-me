@@ -6,7 +6,7 @@
 
 /* banner styles  */
 .banner {
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   background-image: url(../images/banner/banner1.png);
   background-position: center;
@@ -30,8 +30,6 @@
   margin-bottom: 32px;
   margin-top: 24px;
 }
-
-
 
 /* button styles */
 .btn-1 {
@@ -63,8 +61,6 @@
   background: #dd470b;
   cursor: pointer;
 }
-
-
 
 /* failure section styles */
 .failure {
@@ -101,12 +97,10 @@
   font-weight: bolder;
 }
 
-
-
 /* hadis section */
 .hadis {
-  width: 70%;
-  height: 80vh;
+  width: 50%;
+  height: 50%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/banner/namaz.jpg);
   background-position: center;
@@ -118,7 +112,7 @@
   padding-left: 200px;
   padding-bottom: 100px;
   border-radius: 50px;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .hadis:hover {
@@ -131,13 +125,11 @@
 }
 
 .hadis-title {
-  padding-top: 150px;
+  padding-top: 100px;
   font-weight: 700;
   font-size: 40px;
   text-shadow: 3px 4px 4px rgb(10, 10, 10);
 }
-
-
 
 /* plan section styles */
 .plan {
@@ -175,8 +167,6 @@ h3 {
   width: 100px;
 }
 
-
-
 /* positive section styles */
 .watch {
   background-image: url(../images/watch.png);
@@ -205,9 +195,6 @@ h3 {
 .keep {
   margin-bottom: 25px;
 }
-
-
-
 
 /* footter styles */
 .footer-container {
@@ -255,6 +242,5 @@ footer {
   height: 577px;
   padding-top: 130px;
 }
-
 
 /* end for now ,date january 7 ,2022 , 2:31pm */
