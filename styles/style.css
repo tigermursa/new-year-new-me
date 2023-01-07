@@ -5,7 +5,6 @@
 }
 
 /* banner styles  */
-
 .banner {
   width: 100%;
   height: 100vh;
@@ -32,8 +31,9 @@
   margin-top: 24px;
 }
 
-/* button styles */
 
+
+/* button styles */
 .btn-1 {
   width: 160px;
   height: 64px;
@@ -64,8 +64,9 @@
   cursor: pointer;
 }
 
-/* failure section styles */
 
+
+/* failure section styles */
 .failure {
   display: flex;
   justify-content: center;
@@ -100,8 +101,9 @@
   font-weight: bolder;
 }
 
-/* hadis section */
 
+
+/* hadis section */
 .hadis {
   width: 70%;
   height: 80vh;
@@ -119,9 +121,9 @@
   margin-top: 250px;
 }
 
-.hadis:hover{
-    color: rgb(255, 255, 255);
-    cursor: grab;
+.hadis:hover {
+  color: rgb(255, 255, 255);
+  cursor: grab;
 }
 
 .hadis-content {
@@ -134,8 +136,10 @@
   font-size: 65px;
   text-shadow: 3px 4px 4px rgb(10, 10, 10);
 }
-/* plan section styles */
 
+
+
+/* plan section styles */
 .plan {
   text-align: center;
   margin-bottom: 200px;
@@ -167,13 +171,13 @@ h3 {
   padding-top: 10px;
 }
 
-.plan img:hover{
-    width: 100px;
-
+.plan img:hover {
+  width: 100px;
 }
 
-/* positive section styles */
 
+
+/* positive section styles */
 .watch {
   background-image: url(/images/watch.png);
   background-repeat: no-repeat;
@@ -202,8 +206,10 @@ h3 {
   margin-bottom: 25px;
 }
 
-/* footter styles */
 
+
+
+/* footter styles */
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -232,9 +238,9 @@ h3 {
   margin-right: 15px;
 }
 
-.future img:hover{
-    cursor: pointer;
-    width: 50px;
+.future img:hover {
+  cursor: pointer;
+  width: 50px;
 }
 
 .footer-description {
@@ -249,3 +255,6 @@ footer {
   height: 577px;
   padding-top: 130px;
 }
+
+
+/* end for now ,date january 7 ,2022 , 2:31pm */
