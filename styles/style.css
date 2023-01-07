@@ -42,7 +42,7 @@
   font-size: 20px;
   color: #ffffff;
   background: #f15b22;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
 }
 .btn-2 {
@@ -55,7 +55,13 @@
   background: #ffffff;
   border-radius: 5px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+.btn-1:hover,
+.btn-2:hover {
+  color: #ffffff;
+  background: #dd470b;
+  cursor: pointer;
 }
 
 /* failure section styles */
@@ -94,6 +100,40 @@
   font-weight: bolder;
 }
 
+/* hadis section */
+
+.hadis {
+  width: 70%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/banner/namaz.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  margin: 0 auto;
+  color: rgb(150, 143, 141);
+  text-align: justify;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  border-radius: 50px;
+  margin-top: 250px;
+}
+
+.hadis:hover{
+    color: rgb(255, 255, 255);
+    cursor: grab;
+}
+
+.hadis-content {
+  padding-right: 230px;
+}
+
+.hadis-title {
+  padding-top: 150px;
+  font-weight: 700;
+  font-size: 65px;
+  text-shadow: 3px 4px 4px rgb(10, 10, 10);
+}
 /* plan section styles */
 
 .plan {
@@ -127,6 +167,11 @@ h3 {
   padding-top: 10px;
 }
 
+.plan img:hover{
+    width: 100px;
+
+}
+
 /* positive section styles */
 
 .watch {
@@ -137,8 +182,9 @@ h3 {
   height: 300px;
   width: 1140px;
   left: 230px;
-  margin: 0 100px;
+  margin: 0 auto;
   border-radius: 20px;
+  margin-bottom: 130px;
 }
 
 .positive-text {
@@ -154,4 +200,52 @@ h3 {
 
 .keep {
   margin-bottom: 25px;
+}
+
+/* footter styles */
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #151414;
+  color: #ffffff;
+}
+
+.footer-container p {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.mailbox {
+  width: 325px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #151414;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.future img {
+  margin-right: 15px;
+}
+
+.future img:hover{
+    cursor: pointer;
+    width: 50px;
+}
+
+.footer-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer {
+  background: #151414;
+  height: 577px;
+  padding-top: 130px;
 }
